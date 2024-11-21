@@ -4,6 +4,10 @@ app.get('/', (req, res) => {
   res.send("Website is healthy.");
 });
 
+app.get('/other', (req, res) => {
+  res.send("Hit other route.");
+});
+
 
 const port = 7749;
 
