@@ -5,7 +5,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/other', (req, res) => {
-  res.send("Hit other route with update.");
+  res.send("Hit other route with update 2.");
 });
 
 
